@@ -1,6 +1,7 @@
-package payment.thread.test.util;
+package thread.util;
 
-import payment.thread.test.domain.MyOneList;
+
+import thread.domain.MyOneList;
 
 /**
  * <pre>
@@ -15,7 +16,7 @@ public class RunTest {
     public static void main(String[] args) {
         try {
             MyOneList myOneList = new MyOneList();
-            
+
             MyThread1 thread1 = new MyThread1(myOneList);
             thread1.setName("thread-A");
             thread1.start();

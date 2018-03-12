@@ -1,8 +1,9 @@
-package payment.thread.test.util;
+package thread.util;
 
-import payment.thread.test.domain.MyOneList;
-import payment.thread.test.service.MyService;
-import payment.thread.test.service.impl.MyServiceImpl;
+
+import thread.domain.MyOneList;
+import thread.service.MyService;
+import thread.service.impl.MyServiceImpl;
 
 /**
  * <pre>
@@ -20,8 +21,8 @@ public class MyThread1 extends Thread {
         super();
         this.myOneList = myOneList;
     }
-    
-    public void run(){
+
+    public void run() {
         MyService myService = new MyServiceImpl();
         myService.addServiceMethod(myOneList, "A");
     }

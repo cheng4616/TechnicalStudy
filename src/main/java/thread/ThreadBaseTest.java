@@ -1,4 +1,4 @@
-package payment.thread.test;
+package thread;
 
 /**
  * <pre>

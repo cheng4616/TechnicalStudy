@@ -1,4 +1,4 @@
-package payment.thread.test.domain;
+package thread.domain;
 
 import java.util.ArrayList;
 import java.util.List;

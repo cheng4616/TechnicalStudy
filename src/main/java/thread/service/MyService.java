@@ -1,6 +1,7 @@
-package payment.thread.test.service;
+package thread.service;
 
-import payment.thread.test.domain.MyOneList;
+
+import thread.domain.MyOneList;
 
 /**
  * <pre>

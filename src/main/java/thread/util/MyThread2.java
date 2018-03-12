@@ -1,8 +1,9 @@
-package payment.thread.test.util;
+package thread.util;
 
-import payment.thread.test.domain.MyOneList;
-import payment.thread.test.service.MyService;
-import payment.thread.test.service.impl.MyServiceImpl;
+
+import thread.domain.MyOneList;
+import thread.service.MyService;
+import thread.service.impl.MyServiceImpl;
 
 /**
  * <pre>

@@ -1,9 +1,9 @@
-package payment.thread.test.service.impl;
+package thread.service.impl;
 
-import javax.xml.ws.ServiceMode;
+import thread.domain.MyOneList;
+import thread.service.MyService;
 
-import payment.thread.test.domain.MyOneList;
-import payment.thread.test.service.MyService;
+
 
 /**
  * <pre>
