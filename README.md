@@ -1,9 +1,10 @@
 # TechnicalStudy
 
 2018-03-21<br/>
-java自定义注解，脱敏器以及实现参数注解式脱敏器的实现
-通过实现fastjson的ValueFilter接口来实现参数的注解式脱敏器的实现
-依赖于alibaba的fastjson中序列化接口ValueFilter
+1. java自定义注解，脱敏器以及实现参数注解式脱敏器的实现<br/>
+    通过实现fastjson的ValueFilter接口来实现参数的注解式脱敏器的实现<br/>
+    依赖于alibaba的fastjson中序列化接口ValueFilter<br/>
+2. java设计模式-命令模式学习与研究
 
 
 2018-03-15<br/>
